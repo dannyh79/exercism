@@ -3,7 +3,7 @@
 main() {
   if [[ $# -lt 2 ]]; then
     echo "Usage: hamming.sh <string1> <string2>"
-    exit 2
+    exit 126
   fi
 
   local strand1="$1"
